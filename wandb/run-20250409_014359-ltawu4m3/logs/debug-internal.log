@@ -1,0 +1,15 @@
+{"time":"2025-04-09T01:43:59.902365+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\coeze\\Documents\\honours_dissertation_final\\wandb\\run-20250409_014359-ltawu4m3\\logs\\debug-core.log"}
+{"time":"2025-04-09T01:44:00.2160058+01:00","level":"INFO","msg":"created new stream","id":"ltawu4m3"}
+{"time":"2025-04-09T01:44:00.2160058+01:00","level":"INFO","msg":"stream: started","id":"ltawu4m3"}
+{"time":"2025-04-09T01:44:00.2160058+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ltawu4m3"}
+{"time":"2025-04-09T01:44:00.2160058+01:00","level":"INFO","msg":"handler: started","stream_id":"ltawu4m3"}
+{"time":"2025-04-09T01:44:00.2167699+01:00","level":"INFO","msg":"sender: started","stream_id":"ltawu4m3"}
+{"time":"2025-04-09T01:44:00.4375254+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-09T01:44:10.5313885+01:00","level":"INFO","msg":"stream: closing","id":"ltawu4m3"}
+{"time":"2025-04-09T01:44:10.531908+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-09T01:44:10.531908+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-09T01:44:11.3112712+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-09T01:44:11.5226027+01:00","level":"INFO","msg":"handler: closed","stream_id":"ltawu4m3"}
+{"time":"2025-04-09T01:44:11.5226027+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ltawu4m3"}
+{"time":"2025-04-09T01:44:11.5226027+01:00","level":"INFO","msg":"sender: closed","stream_id":"ltawu4m3"}
+{"time":"2025-04-09T01:44:11.5231113+01:00","level":"INFO","msg":"stream: closed","id":"ltawu4m3"}

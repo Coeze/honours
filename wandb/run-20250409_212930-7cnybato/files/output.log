@@ -1,0 +1,1328 @@
+Namespace(modelname='etcaps', num_datapoints=10, output_dir='li')
+etcaps
+Warning: Looks like you're using an outdated `kagglehub` version, please consider updating (latest version: 0.3.11)
+Path to dataset files: C:\Users\coeze\.cache\kagglehub\datasets\sautkin\imagenet1k1\versions\2
+{'input_size': (3, 224, 224), 'interpolation': 'bicubic', 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225), 'crop_pct': 0.875, 'crop_mode': 'center'}
+  0%|                                                                                                             | 0/10 [00:00<?, ?it/s]
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0077, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0060, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0062, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0078, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0072, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0069, 0.0065, 0.0065, 0.0065, 0.0065]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33570>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0077, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0060, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0062, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0078, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0072, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0069, 0.0065, 0.0065, 0.0065, 0.0065]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33600>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33600>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33600>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33600>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33630>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33630>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33630>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33630>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33870>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33870>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33870>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33870>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B337E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B337E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B337E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B337E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33600>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33600>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33600>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33600>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33510>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33510>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33510>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33510>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0075, 0.0075, 0.0075, 0.0075, 0.0078, 0.0075, 0.0075, 0.0075, 0.0075,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0075, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0061, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0079, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0070, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0059, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0063, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0060, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0080, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0068, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33C30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33C30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33C30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33C30>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0075, 0.0075, 0.0075, 0.0075, 0.0078, 0.0075, 0.0075, 0.0075, 0.0075,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0075, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0061, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0079, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0070, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0059, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0063, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0060, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0080, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0068, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33CF0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33CF0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33CF0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33CF0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33C60>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33C60>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33C60>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33C60>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33C00>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33C00>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33C00>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33C00>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33DE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33DE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33DE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33DE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33E10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33E10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33E10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33E10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33D20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33D20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33D20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33D20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33CC0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33CC0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33CC0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33CC0>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0075, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0076, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0079, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0081, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33750>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0075, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0076, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0079, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0081, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B338D0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B338D0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B338D0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B338D0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B337B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B337B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B337B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B337B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B339F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B339F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B339F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B339F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B338A0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B338A0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B338A0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B338A0>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0077, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0062, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0070, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0079, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0068, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33B10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33B10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33B10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33B10>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0077, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0062, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0070, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0079, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0068, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33A50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33A50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33A50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33A50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B339C0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B339C0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B339C0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B339C0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33CF0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33CF0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33CF0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33CF0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33BA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33BA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33BA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33BA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33D20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33D20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33D20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33D20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33960>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33960>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33960>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33960>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0076, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0077, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0062, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0079, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0068, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33B10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33B10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33B10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33B10>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0076, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0077, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0062, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0079, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0068, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33A80>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33A80>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33A80>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33A80>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33D20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33D20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33D20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33D20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AB0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AB0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AB0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AB0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AB0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AB0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0063, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0062, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0062, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0079, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33810>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0063, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0062, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0062, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0079, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33B40>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33B40>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33B40>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33B40>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33AE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B338A0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B338A0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B338A0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B338A0>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0075, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0076, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0079, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0081, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D180>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D180>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D180>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D180>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0075, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0076, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0079, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0081, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D150>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D150>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D150>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D150>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DBA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DBA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DBA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DBA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D960>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D960>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D960>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D960>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D5D0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D5D0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D5D0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D5D0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D540>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D540>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D540>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D540>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D570>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33A50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33A50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33A50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33A50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33990>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33750>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D090>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D090>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D090>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D090>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DC30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DC30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DC30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DC30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D270>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D270>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D270>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D270>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DEA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DEA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DEA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DEA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D540>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D540>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D540>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D540>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D390>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D390>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D390>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D390>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D8D0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D8D0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D8D0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D8D0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DD20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DD20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DD20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DD20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DB10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DB10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DB10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DB10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+  0%|                                                                                                             | 0/10 [00:00<?, ?it/s]
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0077, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0060, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0062, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0078, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0072, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0069, 0.0065, 0.0065, 0.0065, 0.0065]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33BD0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33BD0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33BD0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33BD0>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0077, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0060, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0062, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0078, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0072, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0069, 0.0065, 0.0065, 0.0065, 0.0065]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33090>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33090>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33090>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33090>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B330F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B330F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B330F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B330F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33120>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33120>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33120>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33120>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33150>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33150>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33150>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33150>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B331B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B331B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B331B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B331B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33120>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33120>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33120>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33090>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0075, 0.0075, 0.0075, 0.0075, 0.0078, 0.0075, 0.0075, 0.0075, 0.0075,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0075, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0061, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0079, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0070, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0059, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0063, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0060, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0080, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0068, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33030>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33030>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33030>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33030>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0075, 0.0075, 0.0075, 0.0075, 0.0078, 0.0075, 0.0075, 0.0075, 0.0075,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0075, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0061, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0079, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0070, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0059, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0063, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0060, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0080, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0068, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33060>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33060>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33060>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33060>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33030>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33030>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33030>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33030>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33030>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33030>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33030>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33030>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33060>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33060>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33060>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B33060>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0075, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0076, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0079, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0081, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D330>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D330>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D330>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D330>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0075, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0076, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0079, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0081, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DD80>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DD80>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DD80>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DD80>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D870>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D870>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D870>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D870>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D6F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D6F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D6F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D6F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D480>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D750>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D750>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0077, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0062, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0070, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0079, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0068, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DC90>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DC90>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DC90>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DC90>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0077, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0062, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0070, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0079, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0068, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D0F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D0F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D0F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D0F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D270>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D270>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D270>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D270>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DE10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DE10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DE10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DE10>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D210>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D1E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D1E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D1E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D1E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D540>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D540>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D540>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DE10>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0076, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0077, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0062, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0079, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0068, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DAB0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DAB0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DAB0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DAB0>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0076, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0077, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0062, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0079, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0068, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D7E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D7E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D7E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D7E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D690>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D690>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D690>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D690>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D6F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D6F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D6F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D6F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D330>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D330>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D330>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D330>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D7B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D7B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D7B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D7B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA20>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA20>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0063, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0062, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0062, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0079, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D4E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D4E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D4E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D4E0>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0063, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0062, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0062, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0079, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DDE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DDE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DDE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DDE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DBA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DBA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DBA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DBA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D900>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DDE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DDE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DDE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DDE0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DDB0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DDB0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DDB0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DDB0>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0075, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0076, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0079, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0081, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DE70>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DE70>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DE70>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DE70>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0075, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0076, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0079, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0081, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D690>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D690>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D690>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D690>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DFC0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DFC0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DFC0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DFC0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF00>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF00>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF00>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF00>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D9C0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D9C0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D9C0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D9C0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D780>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D780>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D780>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D780>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA50>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D1E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D1E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D1E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF00>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D5A0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D5A0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D5A0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D5A0>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D780>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D780>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D780>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D780>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D690>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D690>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D690>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D690>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DC60>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DC60>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DC60>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DC60>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DEA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DEA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DEA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DEA0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D780>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D780>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D780>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D780>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D0F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D0F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D0F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D0F0>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907120>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907120>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907120>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907120>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0062, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F79076F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F79076F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F79076F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F79076F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907C90>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907C90>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907C90>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907C90>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907930>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907C30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907C30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907C30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907C30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F79074B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F79074B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F79074B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F79074B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F79076F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F79076F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F79076F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F79076F0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907BD0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907BD0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907BD0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F7907BD0>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DFC0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DFC0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DFC0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DFC0>
+tensor([[0.0060, 0.0060, 0.0060, 0.0060, 0.0061, 0.0060, 0.0060, 0.0060, 0.0060,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0077, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0066, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0080, 0.0080, 0.0080, 0.0080, 0.0076, 0.0080, 0.0080, 0.0080, 0.0080,
+         0.0064, 0.0064, 0.0064, 0.0064, 0.0062, 0.0064, 0.0064, 0.0064, 0.0064,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0068, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0074, 0.0074, 0.0074, 0.0074, 0.0075, 0.0074, 0.0074, 0.0074, 0.0074,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0069, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0061, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0065, 0.0065, 0.0065, 0.0065, 0.0064, 0.0065, 0.0065, 0.0065, 0.0065,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0061, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0078, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0071, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0076, 0.0076, 0.0076, 0.0076, 0.0080, 0.0076, 0.0076, 0.0076, 0.0076,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0069, 0.0066, 0.0066, 0.0066, 0.0066]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D570>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D7B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D7B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D7B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D7B0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D9C0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D9C0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D9C0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D9C0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA80>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA80>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA80>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DA80>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DF30>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DCF0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DCF0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DCF0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DCF0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D1E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D1E0>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3DE70>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x00000219F1B3D9C0>
+finished

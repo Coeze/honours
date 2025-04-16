@@ -1,0 +1,11 @@
+Namespace(output_dir='li', modelname='etcaps', num_datapoints=10)
+etcaps
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 715, in <module>
+    main(args)
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 634, in main
+    model = ETCaps()
+            ^^^^^^^^
+TypeError: ETCaps.__init__() missing 1 required positional argument: 'in_channels'

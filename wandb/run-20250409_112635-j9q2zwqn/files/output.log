@@ -1,0 +1,51 @@
+Namespace(output_dir='li', modelname='etcaps', num_datapoints=10)
+etcaps
+C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Path to dataset files: C:\Users\coeze\.cache\kagglehub\datasets\sautkin\imagenet1k1\versions\2
+{'input_size': (3, 224, 224), 'interpolation': 'bicubic', 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225), 'crop_pct': 0.875, 'crop_mode': 'center'}
+  0%|                                                                                                                                                   | 0/10 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 715, in <module>
+    main(args)
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 659, in main
+    get_metrics(args, "Imagenet_train", imagenet_train_loader, model),
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 602, in get_metrics
+    lee_metrics = eval_average_metrics_wstd(
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 326, in eval_average_metrics_wstd
+    for idx, minibatch in tqdm.tqdm(enumerate(loader), total=total):
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\torch\utils\data\dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\torch\utils\data\dataloader.py", line 1333, in _next_data
+    return self._process_data(data)
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\torch\utils\data\dataloader.py", line 1359, in _process_data
+    data.reraise()
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\torch\_utils.py", line 543, in reraise
+    raise exception
+RuntimeError: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\torch\utils\data\_utils\worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\torch\utils\data\_utils\fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\torch\utils\data\_utils\fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\torch\utils\data\dataset.py", line 295, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\timm\data\dataset.py", line 67, in __getitem__
+    img = self.transform(img)
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\torchvision\transforms\transforms.py", line 95, in __call__
+    img = t(img)
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\timm\data\transforms.py", line 61, in __call__
+    return F.to_tensor(pic)
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.10\lib\site-packages\torchvision\transforms\functional.py", line 163, in to_tensor
+    img = torch.from_numpy(np.array(pic, mode_to_nptype.get(pic.mode, np.uint8), copy=True))
+RuntimeError: Numpy is not available

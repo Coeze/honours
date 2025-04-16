@@ -1,0 +1,15 @@
+{"time":"2025-04-09T01:19:50.5218006+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\coeze\\Documents\\honours_dissertation_final\\wandb\\run-20250409_011950-mad882ex\\logs\\debug-core.log"}
+{"time":"2025-04-09T01:19:51.3550721+01:00","level":"INFO","msg":"created new stream","id":"mad882ex"}
+{"time":"2025-04-09T01:19:51.3550721+01:00","level":"INFO","msg":"stream: started","id":"mad882ex"}
+{"time":"2025-04-09T01:19:51.3556177+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mad882ex"}
+{"time":"2025-04-09T01:19:51.3556177+01:00","level":"INFO","msg":"handler: started","stream_id":"mad882ex"}
+{"time":"2025-04-09T01:19:51.3556177+01:00","level":"INFO","msg":"sender: started","stream_id":"mad882ex"}
+{"time":"2025-04-09T01:19:51.6792957+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-09T01:19:52.5159655+01:00","level":"INFO","msg":"stream: closing","id":"mad882ex"}
+{"time":"2025-04-09T01:19:52.5159655+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-09T01:19:52.5164764+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-09T01:19:53.4692889+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-09T01:19:53.7042671+01:00","level":"INFO","msg":"handler: closed","stream_id":"mad882ex"}
+{"time":"2025-04-09T01:19:53.7042671+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mad882ex"}
+{"time":"2025-04-09T01:19:53.7042671+01:00","level":"INFO","msg":"sender: closed","stream_id":"mad882ex"}
+{"time":"2025-04-09T01:19:53.7047799+01:00","level":"INFO","msg":"stream: closed","id":"mad882ex"}

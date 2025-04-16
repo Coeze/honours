@@ -1,0 +1,89 @@
+Namespace(output_dir='li', modelname='etcaps', num_datapoints=10)
+etcaps
+C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Path to dataset files: C:\Users\coeze\.cache\kagglehub\datasets\sautkin\imagenet1k1\versions\2
+{'input_size': (3, 224, 224), 'interpolation': 'bicubic', 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225), 'crop_pct': 0.875, 'crop_mode': 'center'}
+  0%|                                                                                                             | 0/10 [00:00<?, ?it/s]C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\functional.py:539: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\TensorShape.cpp:3638.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+  0%|                                                                                                             | 0/10 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 721, in <module>
+    main(args)
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 665, in main
+    get_metrics(args, "Imagenet_train", imagenet_train_loader, model),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 608, in get_metrics
+    lee_metrics = eval_average_metrics_wstd(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 329, in eval_average_metrics_wstd
+    dfs.append(metrics(minibatch))
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 587, in get_lee_metrics
+    "trans_x_deriv": translation_lie_deriv(model_probs, x, axis="x"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 452, in translation_lie_deriv
+    lie_deriv = jvp(shifted_model, t, torch.ones_like(t, requires_grad=True))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 425, in jvp
+    _, jvp_result = torch.func.jvp(f, (x,), (u,))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\_functorch\eager_transforms.py", line 1042, in jvp
+    return _jvp_with_argnums(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\_functorch\eager_transforms.py", line 1101, in _jvp_with_argnums
+    result_duals = func(*duals)
+                   ^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 439, in shifted_model
+    z = model(shifted_img)(shifted_img)[0]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\src\models.py", line 62, in forward
+    x = self.et_layer(x)
+        ^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\src\networks.py", line 68, in forward
+    tf_out = self.transformer(x, grid_size=grid_size_tf)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\src\transformers.py", line 218, in forward
+    out_dict = tf(x, transform, grid_size=grid_size, padding_mode=padding_mode)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\src\transformers.py", line 167, in forward
+    coords, heatmaps = self.predictor(x_tf)
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\coeze\Documents\honours_dissertation_final\src\networks.py", line 488, in forward
+    vdelta, udelta = 2./(x.shape[2]-1), 2./(x.shape[3]-1)
+                     ~~^^~~~~~~~~~~~~~
+ZeroDivisionError: float division by zero

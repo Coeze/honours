@@ -1,0 +1,53 @@
+Namespace(modelname='etcaps', num_datapoints=10, output_dir='li')
+etcaps
+Warning: Looks like you're using an outdated `kagglehub` version, please consider updating (latest version: 0.3.11)
+Path to dataset files: C:\Users\coeze\.cache\kagglehub\datasets\sautkin\imagenet1k1\versions\2
+{'input_size': (3, 224, 224), 'interpolation': 'bicubic', 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225), 'crop_pct': 0.875, 'crop_mode': 'center'}
+  0%|                                                                                                             | 0/10 [00:07<?, ?it/s]
+tensor([[0.0075, 0.0075, 0.0075, 0.0075, 0.0074, 0.0075, 0.0075, 0.0075, 0.0075,
+         0.0063, 0.0063, 0.0063, 0.0063, 0.0062, 0.0063, 0.0063, 0.0063, 0.0063,
+         0.0071, 0.0071, 0.0071, 0.0071, 0.0071, 0.0071, 0.0071, 0.0071, 0.0071,
+         0.0057, 0.0057, 0.0057, 0.0057, 0.0058, 0.0057, 0.0057, 0.0057, 0.0057,
+         0.0071, 0.0071, 0.0071, 0.0071, 0.0068, 0.0071, 0.0071, 0.0071, 0.0071,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0067, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0070, 0.0070, 0.0070, 0.0070, 0.0068, 0.0070, 0.0070, 0.0070, 0.0070,
+         0.0066, 0.0066, 0.0066, 0.0066, 0.0063, 0.0066, 0.0066, 0.0066, 0.0066,
+         0.0071, 0.0071, 0.0071, 0.0071, 0.0070, 0.0071, 0.0071, 0.0071, 0.0071,
+         0.0068, 0.0068, 0.0068, 0.0068, 0.0069, 0.0068, 0.0068, 0.0068, 0.0068,
+         0.0075, 0.0075, 0.0075, 0.0075, 0.0076, 0.0075, 0.0075, 0.0075, 0.0075,
+         0.0067, 0.0067, 0.0067, 0.0067, 0.0064, 0.0067, 0.0067, 0.0067, 0.0067,
+         0.0069, 0.0069, 0.0069, 0.0069, 0.0067, 0.0069, 0.0069, 0.0069, 0.0069,
+         0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077, 0.0077,
+         0.0073, 0.0073, 0.0073, 0.0073, 0.0073, 0.0073, 0.0073, 0.0073, 0.0073,
+         0.0072, 0.0072, 0.0072, 0.0072, 0.0075, 0.0072, 0.0072, 0.0072, 0.0072]],
+       device='cuda:0', grad_fn=<SoftmaxBackward>)
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x0000024E0C652810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x0000024E0C652810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x0000024E0C652810>
+op <built-in method grid_sampler_2d_backward of PyCapsule object at 0x0000024E0C652810>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 717, in <module>
+    main(args)
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 661, in main
+    get_metrics(args, "Imagenet_train", imagenet_train_loader, model),
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 604, in get_metrics
+    lee_metrics = eval_average_metrics_wstd(
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 329, in eval_average_metrics_wstd
+    dfs.append(metrics(minibatch))
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 583, in get_lee_metrics
+    "trans_x_deriv": translation_lie_deriv(model_probs, x, axis="x"),
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 448, in translation_lie_deriv
+    lie_deriv = jvp(shifted_model, t, torch.ones_like(t, requires_grad=True))
+  File "C:\Users\coeze\Documents\honours_dissertation_final\lie-deriv\exps_e2e.py", line 420, in jvp
+    Ju = torch.autograd.grad(vJ, [v], [u], create_graph=True)
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.8v2\lib\site-packages\torch\autograd\__init__.py", line 223, in grad
+    return Variable._execution_engine.run_backward(
+  File "C:\Users\coeze\Documents\honours_dissertation_final\venv3.8v2\lib\site-packages\torch\autograd\function.py", line 89, in apply
+    return self._forward_cls.backward(self, *args)  # type: ignore
+  File "C:\Users\coeze\Documents\honours_dissertation_final\src\grid_sampler.py", line 82, in backward
+    assert not ctx.needs_input_grad[2]
+AssertionError
