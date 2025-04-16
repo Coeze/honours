@@ -221,8 +221,6 @@ def main():
         model = ETCaps(
             in_channels=channels
         ).to(device)
-        model.load_state_dict(torch.load("md/svhn_best.pth"))
-        model.eval()
     else:
         model = ResNetCaps(in_channels=channels).to(device)
     optimizer = optim.SGD(model.parameters(), lr=args.learning_rate, momentum=0.9, weight_decay=5e-4)
