@@ -493,7 +493,7 @@ def main():
             )
             
             if args.et:
-                model = resnet20(planes=512, cfg_data=DATASET_CONFIGS[args.dataset], num_caps=32, caps_size=8, depth=2).to(device)
+                model = resnet20(planes=64, cfg_data=DATASET_CONFIGS[args.dataset], num_caps=32, caps_size=8, depth=2).to(device)
             else:
                 model = ResNetCaps(in_channels=DATASET_CONFIGS[args.dataset]['channels']).to(device)
             
